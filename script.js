@@ -5,8 +5,8 @@ window.addEventListener("load", setDefaultGrid);
 resetButton.addEventListener("click", changeSize);
 
 function setDefaultGrid() {
-    setGridSize(16);
-    fillGrid(16);
+    setGridSize(10);
+    fillGrid(10);
 }
 
 function setGridSize(size) {
